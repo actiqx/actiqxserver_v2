@@ -1,0 +1,46 @@
+[{
+    "_id" : "57f6a0a10c450f331485b6d3",
+    "title" : "Pick and Delivery Service",
+    "info" : "Pick and Delivery Service",
+    "icon" : "http://dialanironer.com.au/images/pickup2.gif",
+    "userRole" : "pick-delivery-service"
+},
+{
+    "_id" : "57f6a30c292700ad14cdc042",
+    "title" : "Grocery Delivery Service",
+    "info" : "grocery delivery service",
+    "icon" : "http://groceryexpressdelivers.com/_Media/groceryexpressdeliverscom_med_hr.jpeg",
+    "userRole" : "grocery-delivery-service",
+    "parent" : "57f6a0a10c450f331485b6d3"
+},
+{
+    "_id" : "57f6a370292700ad14cdc043",
+    "title" : "Parcel Delivery",
+    "info" : "Parcel Delivery",
+    "icon" : "http://dailyscot.com/wp-content/uploads/2014/08/parcel.jpg",
+    "userRole" : "parcel-delivery",
+    "parent" : "57f6a0a10c450f331485b6d3"
+},
+{
+    "_id" : "57f6a3b8292700ad14cdc044",
+    "title" : "Repair Vehicle",
+    "info" : "Repair Vehicle",
+    "icon" : "http://www.walkersrepair.mechanicnet.com/images/shops/6024/6024IMG00001.gif",
+    "userRole" : "repair-vehicle"
+},
+{
+    "_id" : "57f6a446292700ad14cdc045",
+    "title" : "Home Repair",
+    "info" : "Home Repair",
+    "icon" : "http://www.discoverneedham.com/discoverneedham/image/Home%20Repair%20Tool%20Box.jpg",
+    "userRole" : "home-repair",
+    "parent" : "57f6a3b8292700ad14cdc044"
+},
+{
+    "_id" : "57f6a47f292700ad14cdc046",
+    "title" : "Car Repair",
+    "info" : "Car Repair",
+    "icon" : "http://www.walkersrepair.mechanicnet.com/images/shops/6024/6024IMG00001.gif",
+    "userRole" : "car-repair",
+    "parent" : "57f6a3b8292700ad14cdc044"
+}]

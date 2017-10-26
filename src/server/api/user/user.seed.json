@@ -1,0 +1,85 @@
+[{
+	"_id" : "57f8f0ab21be422512d7b11c",
+	"name": "Priyatosh  Patra",
+	"email": "priyatosh@customer.com",
+	"mobile": "1234567890",
+	"password": "priyatosh",
+	"provider": "local",
+	"roles": [
+		"user"
+	],
+	"location": {
+		"type": "Point",
+		"coordinates": [
+			77.70567632,
+			12.9443302
+		]
+	},
+	"avatar": "https://gymkhana.iitb.ac.in/~sports/images/profile.png",
+	"device": {
+    	"platform": "ANDROID",
+    	"token": "APA91bHFY0Ou41BnEjqahkoSGjNuYYu96KTVk4q4Oe8EB6nu3QMK3DnMGGou52OhtFEjWXvGMdLnryze1ACu-3nvmCMRt8gMRjU1CC7eTbyRKskeAXc91ZjPkD4pu1dqhKHFeR_-JjFF"
+    }
+},{
+	"name": "Kirti Sundar",
+	"email": "kirti@service.com",
+	"mobile": "1234567899",
+	"password": "kirti",
+	"provider": "local",	
+	"timeSlots": [{
+		"start": 6.0,
+		"end": 11.0
+	}, {
+		"start": 12.0,
+		"end": 15.0
+	}, {
+		"start": 15.3,
+		"end": 18.0
+	}],
+	"location": {
+		"type": "Point",
+		"coordinates": [
+			77.70567632, 
+			12.9443302
+		]
+	},
+	"roles": [
+		"pick-delivery-service"
+	],
+	"avatar": "https://gymkhana.iitb.ac.in/~sports/images/profile.png",
+	"device": {
+    	"platform": "ANDROID",
+    	"token": "APA91bFNS5bRYNnw1gPB7hAMrTjYBxtuLNUW1FHltUVK-LCUlmV2fFxgBNiVFYZM8nHikLoev1mGjIgdUPjLhKnlmo8pvmk7eE23IZnh8CbLDt2D9VtKI9My9wG_b-nHsVmiVHjOgEXv"
+    }
+}, {
+	"name": "Siba Prakash",
+	"email": "siba@service.com",
+	"mobile": "8892220323",
+	"password": "siba",
+	"provider": "local",
+	"activeTasks": [],
+	"timeSlots": [{
+		"start": 6.0,
+		"end": 11.0
+	}, {
+		"start": 12.0,
+		"end": 15.0
+	}, {
+		"start": 15.3,
+		"end": 18.0
+	}],
+	"location": {
+		"type": "Point",
+		"coordinates": [
+			77.70567632, 
+			12.9443302
+		]
+	},
+	"roles": [
+		"pick-delivery-service"
+	],
+	"device": {
+    	"platform": "ANDROID",
+    	"token": "APA91bHFY0Ou41BnEjqahkoSGjNuYYu96KTVk4q4Oe8EB6nu3QMK3DnMGGou52OhtFEjWXvGMdLnryze1ACu-3nvmCMRt8gMRjU1CC7eTbyRKskeAXc91ZjPkD4pu1dqhKHFeR_-JjFF"
+    }
+}]

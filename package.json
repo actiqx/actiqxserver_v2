@@ -1,0 +1,62 @@
+{
+  "name": "task",
+  "version": "0.0.0",
+  "main": "server/app.js",
+  "dependencies": {
+    "apidoc": "^0.16.1",
+    "apn": "^2.1.0",
+    "body-parser": "~1.5.0",
+    "browser-sync": "^2.12.3",
+    "composable-middleware": "^0.3.0",
+    "compression": "~1.0.1",
+    "connect-mongo": "^0.8.1",
+    "cookie-parser": "~1.0.1",
+    "cors": "^2.7.1",
+    "errorhandler": "~1.0.0",
+    "express": "~4.9.0",
+    "express-jwt": "^3.0.0",
+    "express-session": "~1.0.2",
+    "express-validator": "^2.19.1",
+    "fast-json-patch": "^1.1.1",
+    "gulp-inject": "^4.0.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-notify": "^2.2.0",
+    "jsome": "^2.3.24",
+    "jsonwebtoken": "^5.0.0",
+    "lodash": "^4.13.1",
+    "lodash.merge": "^4.4.0",
+    "mandrill-api": "^1.0.45",
+    "method-override": "~1.0.0",
+    "moment": "^2.14.1",
+    "mongoose": "^4.4.7",
+    "mongoose-autopopulate": "^0.4.0",
+    "mongoose-deep-populate": "^3.0.0",
+    "morgan": "~1.0.0",
+    "node-gcm": "^0.14.4",
+    "node-mandrill": "^1.0.1",
+    "passport": "~0.2.0",
+    "passport-facebook": "latest",
+    "passport-google-oauth": "latest",
+    "passport-local": "~0.1.6",
+    "passport-twitter": "latest",
+    "sendgrid": "^4.7.1",
+    "socket.io": "^1.0.6",
+    "socket.io-client": "^1.0.6",
+    "socketio-jwt": "^3.0.0",
+    "which-os": "0.0.2",
+    "wiredep": "^4.0.0"
+  },
+  "devDependencies": {
+    "should": "~3.3.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node src/server/app.js",
+    "nodemon": "nodemon src/server/app.js",
+    "debug": "node-debug src/server/app.js",
+    "doc": "apidoc -i src/server/ -f index.js"
+  },
+  "private": true
+}

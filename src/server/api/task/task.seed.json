@@ -1,0 +1,18 @@
+[
+	{
+		"_id": "5778ad3c409e08b7122dc17b",
+		"info": "This is one test task",
+
+		"category": "57f6a0a10c450f331485b6d3",
+		"date": "2016-07-02T12:00:00.000Z",
+
+		"place": "SGR College",
+		"location" : {
+			"lat": 12.9443302,
+			"lng": 77.70567632
+		},
+
+		"assignTo" : "5778a20aa19533cc0dff9d28",
+		"_createdBy": "57f8f0ab21be422512d7b11c"
+	}
+]
